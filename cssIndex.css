@@ -40,6 +40,15 @@ body {
   flex-wrap: wrap;
 }
 
+progress{
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  float: right;
+  width: 130px;
+  height: 20px;
+}
+
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {

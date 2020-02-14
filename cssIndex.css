@@ -12,7 +12,7 @@ body {
 .header {
   padding: 40px;
   text-align: center;
-  background: #1abc9c;
+  background: #3282b8;
   color: white;
 }
 
@@ -55,13 +55,10 @@ body {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 .img {
+  max-width: 100%;
+}
+.imgPyPong {
   max-width: 100%;
 }
 
@@ -69,14 +66,15 @@ body {
 .footer {
   padding: 2px;
   text-align: center;
-  background: #ddd;
+  background: #333;
+  color: white;
 }
 .footer a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .footer h3 {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 17px;
 }

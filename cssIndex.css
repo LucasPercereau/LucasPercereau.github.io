@@ -63,12 +63,25 @@ progress{
   background-color: white;
   padding: 20px;
 }
+.main a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-align: center;
+}
+.main a:hover {
+  background-color: #AAA7A7;
+  color: white;
+}
 
 .img {
   max-width: 100%;
 }
 .imgPyPong {
   max-width: 100%;
+}
+.imgYodGame {
+  max-width: 50%;
 }
 
 /* Footer */

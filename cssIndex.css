@@ -10,7 +10,7 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   background: #3282b8;
   color: white;
@@ -74,8 +74,55 @@ progress{
   color: white;
 }
 
+/*Div from main*/
+.formation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.formationIcone {
+  flex: 10%;
+  padding: 5px;
+}
+.formationContent {
+  padding: 5px;
+  flex : 90%;
+}
+
+.experiencesPro {
+  display: flex;
+  flex-wrap: wrap;
+}
+.experiencesProIcone {
+  flex: 10%;
+  padding: 5px;
+}
+.experiencesProContent {
+  padding: 5px;
+  flex : 90%;
+}
+
+.experiencesPerso {
+  display: flex;
+  flex-wrap: wrap;
+}
+.experiencesPersoIcone {
+  flex: 10%;
+  padding: 5px;
+}
+.experiencesPersoContent {
+  padding: 5px;
+  flex : 90%;
+}
+
+/*Images*/
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
 .img {
   max-width: 100%;
+  vertical-align: middle;
 }
 .imgPyPong {
   max-width: 100%;

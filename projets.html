@@ -7,103 +7,104 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+
 	<body>
+		<!-- Header -->
+		<div class="header">
+		<h1>Projets</h1>
+		</div>
 
-	<!-- Header -->
-	<div class="header">
-	  <h1>Projets</h1>
-	</div>
+		<!-- Navigation Bar -->
+		<div class="navbar">
+		<a href="./index.html">Home</a>
+		<a href="./projets.html">Projets</a>
+		<a href="#bottom">Contact</a>
+		</div>
 
-	<!-- Navigation Bar -->
-	<div class="navbar">
-	  <a href="./index.html">Home</a>
-	  <a href="./projets.html">Projets</a>
-	  <a href="#bottom">Contact</a>
-	</div>
+		<!-- The flexible grid (content) -->
+		<div class="row">
+			<div class="side">
+				<h2>A propos de moi :</h2>
+				<img class="img" src="pp.png" alt="photo de profil">
+				<p>Etudiant ingénieur en 5ème année a Polytech Angers</p>
+				<p><b>Spécialité : </b>Systèmes Automatisées et Génie Informatique</p>
+				<h3>Competences :</h3>
+				<p>Unity 3D  <progress id="progress1" max="100" value="100"></progress></p>
+				<p>C#  <progress id="progress2" max="100" value="95"></progress></p>
+				<p>Python  <progress id="progress3" max="100" value="80"></progress></p>
+				<p>Java / J2EE  <progress id="progress4" max="100" value="65"></progress></p>
+				<p>C++  <progress id="progress5" max="100" value="60"></progress></p>
+				<p>Langage C  <progress id="progress6" max="100" value="50"></progress></p>		 
+				<p>Html/CSS  <progress id="progress7" max="100" value="80"></progress></p> 
+				<p>JavaScript  <progress id="progress8" max="100" value="65"></progress></p> 
+				<p>Php  <progress id="progress9" max="100" value="50"></progress></p> 
+				<p>SQL/Oracle  <progress id="progress10" max="100" value="50"></progress></p> 
+				<p>SolidWorks  <progress id="progress11" max="100" value="60"></progress></p>
+				<p>MatLab  <progress id="progress12" max="100" value="40"></progress></p> 
+				<p>Pack Office  <progress id="progress13" max="100" value="80"></progress></p>   
+			</div>
+			<div class="main">
+				<h2>Mes projets : </h2>
+				<h5>MAJ: le 14/02/2020</h5>
+				<p><b>Projet Simulateur de production</b></p>
+				<p>2019/2020</p>
+				<p>Création d'une interface C# permettant de generer automtiquement le code JavaScript de l'animation d'un simulateur de production</p>
+				<ul>
+				<li>Utilisation de visual studio et C# (Windows Form)</li>
+				<li>Utilisation du format JSON</li>
+				<li>Utilisation de JavaScript</li>
+				</ul>
+				<p>Telechargement : <a href="https://github.com/LucasPercereau/GenerateurDeProduction">Simulateur de production</a></p>
+				<br>
+				<br>
+				<p><b>Projet Telegram</b></p>
+				<p>2018/2019</p>
+				<p>Création d'un bot PHP sur à l'aide de l'application Telegram</p>
+				<ul>
+				<li>Utilisation de l'open data d'Angers</li>
+				<li>Utilisation des donnée de l'utilisateur de d'Angers pour prooser le bus le plus proche</li>
+				<li>Création d'un calendrier de l'avant par utilisateur basé sur la base de donnnée</li>
+				<li>Création d'un systeme de messagerie entre les utilisateurs du bot</li>
+				<li>Utilisation de divers APIs (ex: images d'animaux aléatoires sur demande...)</li>
+				</ul>
+				<br>
+				<br>
+				<p><b>Projet Py-Pong</b></p>
+				<p>2017/2018</p>
+				<p>Création d'une imitation du fameux jeu "Pong" en Python :</p>
+				<ul>
+				<li>Utilisation de Python 3, Canvas et Pyserial</li>
+				<li>Jeu à 4 joueurs</li>
+				<li>Utilisaton de capteurs infrarouge liée à une carte arduino pour le deplacement des raquettes</li>
+				<li>Utilisaton de SonicPi pour programmer la musique du jeu</li>
+				</ul>
+				<br>
+				<img class="imgPyPong" src="projetPyPongCapteurs.jpg" alt="capteurs">
+				<img class="imgPyPong" src="projetPyPongOptions.png" alt="photo de profil">
+				<img class="imgPyPong" src="projetPyPongSonicPi.png" alt="photo de profil">
+				<img class="imgPyPong" src="projetPyPongFinal.png" alt="photo de profil">
+				<br>
+				<br>
+				<p><b>Projet YOD GAME</b></p>
+				<p>2015/2016</p>
+				<p>Reproduction d'un celebre jeu ou le joueur doit transformer les cases en marchant dessus :</p>
+				<ul>
+				<li>Utilisation de Processing</li>
+				<li>Projet de terminal S ISN (3 personnes)</li>
+				<li>Generation des niveaux à partir d'un fichier excel</li>
+				<li>Portage du jeu sur portable</li>
+				</ul>
+				<img class="imgYodGame" src="Yod.gif" alt="gif">
+				<br>
+			</div>
+		</div>
 
-	<!-- The flexible grid (content) -->
-	<div class="row">
-	  <div class="side">
-	    <h2>A propos de moi :</h2>
-	    <img class="img" src="pp.png" alt="photo de profil">
-	    <p>Etudiant ingénieur en 4ème année a Polytech Angers</p>
-	    <p><b>Spécialité : </b>Systèmes Automatisées et Génie Informatique</p>
-	    <h3>Competences :</h3>
-	    <p>Unity 3D  <progress id="progress1" max="100" value="80"></progress></p>
-	    <p>C#  <progress id="progress2" max="100" value="85"></progress></p>
-	    <p>Java / J2EE  <progress id="progress3" max="100" value="65"></progress></p>
-	    <p>Langage C  <progress id="progress4" max="100" value="50"></progress></p>
-	    <p>Python  <progress id="progress5" max="100" value="65"></progress></p> 
-	    <p>Html/CSS/PHP  <progress id="progress6" max="100" value="55"></progress></p> 
-	    <p>SQL/Oracle  <progress id="progress7" max="100" value="50"></progress></p> 
-	    <p>MatLab  <progress id="progress8" max="100" value="40"></progress></p> 
-	    <p>Pack Office  <progress id="progress9" max="100" value="70"></progress></p> 
-	    <p>SolidWorks  <progress id="progress10" max="100" value="60"></progress></p>
-	    <p>Grafcet/Ladder  <progress id="progress11" max="100" value="80"></progress></p>      
-	  </div>
-	  <div class="main">
-	    <h2>Mes projets : </h2>
-	    <h5>MAJ: le 14/02/2020</h5>
-	    <p><b>Projet Simulateur de production</b></p>
-	    <p>2019/2020</p>
-	    <p>Création d'une interface C# permettant de generer automtiquement le code JavaScript de l'animation d'un simulateur de production</p>
-	    <ul>
-		  <li>Utilisation de visual studio et C# (Windows Form)</li>
-		  <li>Utilisation du format JSON</li>
-		  <li>Utilisation de JavaScript</li>
-		</ul>
-		<p>Telechargement : <a href="https://github.com/LucasPercereau/GenerateurDeProduction">Simulateur de production</a></p>
-		<br>
-		<br>
-	    <p><b>Projet Telegram</b></p>
-	    <p>2018/2019</p>
-	    <p>Création d'un bot PHP sur à l'aide de l'application Telegram</p>
-	    <ul>
-		  <li>Utilisation de l'open data d'Angers</li>
-		  <li>Utilisation des donnée de l'utilisateur de d'Angers pour prooser le bus le plus proche</li>
-		  <li>Création d'un calendrier de l'avant par utilisateur basé sur la base de donnnée</li>
-		  <li>Création d'un systeme de messagerie entre les utilisateurs du bot</li>
-		  <li>Utilisation de divers APIs (ex: images d'animaux aléatoires sur demande...)</li>
-		</ul>
-		<br>
-		<br>
-	    <p><b>Projet Py-Pong</b></p>
-	    <p>2017/2018</p>
-	    <p>Création d'une imitation du fameux jeu "Pong" en Python :</p>
-	    <ul>
-		  <li>Utilisation de Python 3, Canvas et Pyserial</li>
-		  <li>Jeu à 4 joueurs</li>
-		  <li>Utilisaton de capteurs infrarouge liée à une carte arduino pour le deplacement des raquettes</li>
-		  <li>Utilisaton de SonicPi pour programmer la musique du jeu</li>
-		</ul>
-		<br>
-		<img class="imgPyPong" src="projetPyPongCapteurs.jpg" alt="capteurs">
-		<img class="imgPyPong" src="projetPyPongOptions.png" alt="photo de profil">
-		<img class="imgPyPong" src="projetPyPongSonicPi.png" alt="photo de profil">
-		<img class="imgPyPong" src="projetPyPongFinal.png" alt="photo de profil">
-		<br>
-		<br>
-		<p><b>Projet YOD GAME</b></p>
-	    <p>2015/2016</p>
-	    <p>Reproduction d'un celebre jeu ou le joueur doit transformer les cases en marchant dessus :</p>
-	    <ul>
-		  <li>Utilisation de Processing</li>
-		  <li>Projet de terminal S ISN (3 personnes)</li>
-		  <li>Generation des niveaux à partir d'un fichier excel</li>
-		  <li>Portage du jeu sur portable</li>
-		</ul>
-		<img class="imgYodGame" src="Yod.gif" alt="gif">
-		<br>
-	  </div>
-	</div>
-
-	<!-- Footer -->
-	<div class="footer">
-	  <h2>CONTACT</h2>
-	  <h3>lucas.percereau@gmail.com</h3>
-	  <h3><a href="https://www.linkedin.com/in/lucas-percereau/">Linkedin</a></h3>
-	  <h3><a id="bottom" href="https://github.com/LucasPercereau">GitHub</a></h3>
-	</div>
-
+		<!-- Footer -->
+		<div class="footer">
+			<h2>CONTACT</h2>
+			<h3>lucas.percereau@gmail.com</h3>
+			<h3><a href="https://www.linkedin.com/in/lucas-percereau/">Linkedin</a></h3>
+			<h3><a id="bottom" href="https://github.com/LucasPercereau">GitHub</a></h3>
+		</div>
 	</body>
 </html>

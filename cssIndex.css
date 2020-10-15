@@ -2,13 +2,17 @@
   box-sizing: border-box;
 }
 
+/******************/
 /* Style the body */
+/******************/
 body {
   font-family: Arial;
   margin: 0;
 }
 
+/*********************/
 /* Header/logo Title */
+/*********************/
 .header {
   padding: 30px;
   text-align: center;
@@ -16,13 +20,17 @@ body {
   color: white;
 }
 
+/********************************/
 /* Style the top navigation bar */
+/********************************/
 .navbar {
   display: flex;
   background-color: #333;
 }
 
+/**********************************/
 /* Style the navigation bar links */
+/**********************************/
 .navbar a {
   color: white;
   padding: 14px 20px;
@@ -34,7 +42,9 @@ body {
   color: black;
 }
 
+/********************/
 /* Column container */
+/********************/
 .row {  
   display: flex;
   flex-wrap: wrap;
@@ -49,15 +59,19 @@ progress{
   height: 20px;
 }
 
+/***********************************************************/
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
+/***********************************************************/
 .side {
   flex: 20%;
   background-color: #f1f1f1;
   padding: 20px;
 }
 
+/***************/
 /* Main column */
+/***************/
 .main {
   flex: 80%;
   background-color: white;
@@ -74,7 +88,9 @@ progress{
   color: white;
 }
 
+/****************/
 /*Div from main*/
+/****************/
 .formation {
   display: flex;
   flex-wrap: wrap;
@@ -114,7 +130,41 @@ progress{
   flex : 90%;
 }
 
+.experiencesPerso {
+  display: flex;
+  flex-wrap: wrap;
+}
+.experiencesPersoIcone {
+  flex: 10%;
+  padding: 5px;
+}
+.experiencesPersoContent {
+  padding: 5px;
+  flex : 90%;
+}
+
+.projet {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.projetTitle {
+  padding: 5px;
+  background-color: #d9ecf2;
+  text-align: center;
+}
+.projetDescription {
+  padding: 5px;
+  background-color: #f6f6f6;
+}
+.projetIllustration {
+  padding: 5px;
+  background-color: #f6f6f6;
+}
+
+/********/
 /*Images*/
+/********/
 .helper {
   display: inline-block;
   height: 100%;
@@ -123,12 +173,7 @@ progress{
 .img {
   max-width: 100%;
   vertical-align: middle;
-}
-.imgPyPong {
-  max-width: 100%;
-}
-.imgYodGame {
-  max-width: 50%;
+  max-height: 200px;
 }
 
 /* Footer */

@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="cssIndex.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="Javascript/imageOnModal.js" text/javascript"></script> 
 	</head>
 
 	<body>
@@ -44,6 +45,11 @@
 				<p>Pack Office  <progress id="progress13" max="100" value="80"></progress></p>   
 			</div>
 			<div class="main">
+				<div id="myModal" class="modal">
+					<span class="close">&times;</span>					
+					<img class="modal-content" id="imgModal">
+					<div id="caption"></div>
+				</div>
 				<div class="projet">
 					<div class="projetTitle">
 						<p><h3>HTML Generator</h3></p>
@@ -55,8 +61,8 @@
 						<p><b>Lien :</b><a href="https://github.com/LucasPercereau/HTML_Generator">HTML Generator</a></p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="python.png" alt="Logo python">
-						<span class="helper"></span><img class="img" src="htmlgenerator.PNG" alt="Interface programme">
+						<span class="helper"></span><img class="img" id="img1" src="python.png" alt="Logo python">						
+						<span class="helper"></span><img class="img" id="img2" src="htmlgenerator.PNG" alt="Interface programme">
 					</div>		   
 				</div>
 				<br>
@@ -71,9 +77,9 @@
 						<p><b>Lien :</b><a href="https://github.com/LucasPercereau/CryptoCastor">Crypto Castor</a></p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="csharp.png" alt="Logo C Sharp">
-						<span class="helper"></span><img class="img" src="dotnet.png" alt="Logo dotnet">
-						<span class="helper"></span><img class="img" src="cryptocastor.PNG" alt="Interface programme">
+						<span class="helper"></span><img class="img" id="img3" src="csharp.png" alt="Logo C Sharp">
+						<span class="helper"></span><img class="img" id="img4" src="dotnet.png" alt="Logo dotnet">
+						<span class="helper"></span><img class="img" id="img5" src="cryptocastor.PNG" alt="Interface programme">
 					</div>		   
 				</div>
 				<br>
@@ -88,9 +94,9 @@
 						<p><b>Lien :</b><a href="https://alligator-news-polytech-angers.github.io/index.html">Site Alligator News</a></p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="html.png" alt="Logo html">
-						<span class="helper"></span><img class="img" src="css.png" alt="Logo CSS">
-						<span class="helper"></span><img class="img" src="alligatornews.PNG" alt="Interface du site">
+						<span class="helper"></span><img class="img" id="img6" src="html.png" alt="Logo html">
+						<span class="helper"></span><img class="img" id="img7" src="css.png" alt="Logo CSS">
+						<span class="helper"></span><img class="img" id="img8" src="alligatornews.PNG" alt="Interface du site">
 					</div>		   
 				</div>
 				<br>
@@ -105,10 +111,10 @@
 						<p><b>Lien :</b><a href="https://github.com/LucasPercereau/GenerateurDeProduction">Simulateur de production</a></p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="csharp.png" alt="Logo C Sharp">
-						<span class="helper"></span><img class="img" src="dotnet.png" alt="Logo dotnet">
-						<span class="helper"></span><img class="img" src="javascript.png" alt="Logo javaScript">
-						<span class="helper"></span><img class="img" src="generateur.PNG" alt="Interface programme">
+						<span class="helper"></span><img class="img" id="img9" src="csharp.png" alt="Logo C Sharp">
+						<span class="helper"></span><img class="img" id="img10" src="dotnet.png" alt="Logo dotnet">
+						<span class="helper"></span><img class="img" id="img11" src="javascript.png" alt="Logo javaScript">
+						<span class="helper"></span><img class="img" id="img12" src="generateur.PNG" alt="Interface programme">
 					</div>		   
 				</div>
 				<br>
@@ -123,11 +129,11 @@
 						<p><b>Lien :</b><a href="https://www.uqar.ca/nouvelles/uqar-info/2788-un-projet-d-unite-virtuelle-de-soins-intensifs-novateur">Article UVSI</a></p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="unity.jpg" alt="Logo Unity">
-						<span class="helper"></span><img class="img" src="csharp.png" alt="Logo C Sharp">
-						<span class="helper"></span><img class="img" src="uvsi1.png" alt="image uvsi">
-						<span class="helper"></span><img class="img" src="uvsi2.png" alt="image uvsi">
-						<span class="helper"></span><img class="img" src="uvsi3.png" alt="image uvsi">
+						<span class="helper"></span><img class="img" id="img13" src="unity.jpg" alt="Logo Unity">
+						<span class="helper"></span><img class="img" id="img14" src="csharp.png" alt="Logo C Sharp">
+						<span class="helper"></span><img class="img" id="img15" src="uvsi1.png" alt="image uvsi">
+						<span class="helper"></span><img class="img" id="img16" src="uvsi2.png" alt="image uvsi">
+						<span class="helper"></span><img class="img" id="img17" src="uvsi3.png" alt="image uvsi">
 					</div>		   
 				</div>
 				<br>
@@ -141,8 +147,8 @@
 						<p><b>Outils :</b> PHP | Filezilla | OpenData Angers | APIs | Telegram</p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="telegram.png" alt="Logo telegram">
-						<span class="helper"></span><img class="img" src="php.png" alt="Logo php">
+						<span class="helper"></span><img class="img" id="img18" src="telegram.png" alt="Logo telegram">
+						<span class="helper"></span><img class="img" id="img19" src="php.png" alt="Logo php">
 					</div>		   
 				</div>
 				<br>
@@ -156,11 +162,11 @@
 						<p><b>Outils :</b> Python3 | Canvas | Pyserial | Capteurs infrarouges | Carte arduino | SonicPi</p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="python.webp" alt="python">
-						<span class="helper"></span><img class="img" src="projetPyPongCapteurs.jpg" alt="capteurs">
-						<span class="helper"></span><img class="img" src="projetPyPongOptions.png" alt="options">
-						<span class="helper"></span><img class="img" src="projetPyPongSonicPi.png" alt="sonic pi">
-						<span class="helper"></span><img class="img" src="projetPyPongFinal.png" alt="appercu final">
+						<span class="helper"></span><img class="img" id="img20" src="python.webp" alt="python">
+						<span class="helper"></span><img class="img" id="img21" src="projetPyPongCapteurs.jpg" alt="capteurs">
+						<span class="helper"></span><img class="img" id="img22" src="projetPyPongOptions.png" alt="options">
+						<span class="helper"></span><img class="img" id="img23" src="projetPyPongSonicPi.png" alt="sonic pi">
+						<span class="helper"></span><img class="img" id="img24" src="projetPyPongFinal.png" alt="appercu final">
 					</div>		   
 				</div>
 				<br>
@@ -174,8 +180,8 @@
 						<p><b>Outils :</b> Processing | Lecture fichiers excels | Portage android </p>
 					</div>
 					<div class="projetIllustration">
-						<span class="helper"></span><img class="img" src="processing.png" alt="processing logo">
-						<span class="helper"></span><img class="img" src="Yod.gif" alt="gif">
+						<span class="helper"></span><img class="img" id="img25" src="processing.png" alt="processing logo">
+						<span class="helper"></span><img class="img" id="img26" src="Yod.gif" alt="gif">
 					</div>		   
 				</div>				
 			</div>

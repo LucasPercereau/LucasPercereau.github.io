@@ -7,7 +7,7 @@ window.onload = function(){
     var captionText = document.getElementById("caption");
 
     //Get all img and set function
-    for (var x = 1; x < 26; x++) {
+    for (var x = 1; x < 37; x++) {
         img = document.getElementById("img" + x);
 
         img.onclick = function(){
